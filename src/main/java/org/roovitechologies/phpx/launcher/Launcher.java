@@ -14,7 +14,7 @@ import org.roovitechologies.phpx.visitors.FunctionAdder;
 public class Launcher {
     
 	public static void main(String[] args) throws IOException {
-                evaluateFile("sample.php");
+                evaluateFile(args[0]);
 	}
         
         public static void evaluateFile(String file) throws IOException {
