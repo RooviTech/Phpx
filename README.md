@@ -18,8 +18,8 @@ define("a", 0)
 
 // Java math
 print("PI: ".PI)
-print("Sin PI: ".sin(PI)) // With MathExt
-print("Cos PI: ".cos(PI)) // With MathExt
+print("Sin PI: ".sin(PI)) // With MathBundle
+print("Cos PI: ".cos(PI)) // With MathBundle
 
 // If/else statement (elseif not supports)
 if($a == 1){
