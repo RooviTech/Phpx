@@ -1,0 +1,19 @@
+apply plugin: 'java'
+
+sourceCompatibility = '1.7'
+
+ext.mainClass = 'org.roovitechologies.phpx.launcher.Launcher'
+
+jar {
+    manifest {
+        attributes('Main-Class': 'org.roovitechologies.phpx.launcher.Launcher')
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.10'
+}
